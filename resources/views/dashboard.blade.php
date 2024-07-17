@@ -13,8 +13,10 @@
         @include('components.inspinia.side_nav_bar-inspinia')
 
 
+        <div id="app"></div>
 
-        
+        @vite('resources/js/app.js')
+
 
 
 
@@ -23,7 +25,7 @@
 
 
         @include('components.inspinia.footer-inspinia')
-        </div>
+    </div>
     </div>
 
 </body>
